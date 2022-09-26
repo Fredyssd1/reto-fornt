@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table, th, td{
+            border: 0.1px solid black;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="funcionesQuadbike.js"> </script>
+    <title>quadbike</title>
+</head>
+<body onload = "traerDatosCuatrimoto()">
+	<h1>QUADBIKE</h1>
+	<table id= "resultado">
+
+	</table>
+	<h3> AGREGAR CUATRIMOTO</h3>
+	<input id="id" placeholder="Id cuatrimoto"><br><br>
+	<input id="brand" placeholder="nombre cuatrimoto"><br><br>
+	<input id="model" placeholder="modelo cuatrimoto"><br><br>
+	<input id="category_id" placeholder="categoria"><br><br>
+	<input id="name" placeholder="nombre cuatrimoto"><br><br>
+
+	<button onclick="guardarCuatrimoto()">Guardar</button>
+	<button onclick="location.href='index.html'">Volver</button>
+    
+</body>
+</html>
